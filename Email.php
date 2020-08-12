@@ -22,8 +22,8 @@
         public function Send()
         {
             require 'vendor/autoload.php';
-			$Mailer = new PHPMailer(true);
-			$Mailer->IsSMTP();
+	    $Mailer = new PHPMailer(true);
+	    $Mailer->IsSMTP();
             $Mailer->CharSet = 'UTF-8';
             $Mailer->SMTPAuth = true;
             $Mailer->SMTPSecure = 'ssl';
