@@ -1,0 +1,4 @@
+{
+    "name": "windows/back-end",
+    "require": {"phpmailer/phpmailer": "~6.1"}
+}
