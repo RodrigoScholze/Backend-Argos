@@ -30,7 +30,7 @@
             $Mailer->Host = 'iuri0069';
             $Mailer->Port = 465;
             $Mailer->Username = 'cadastros@argoshackvision.tech';
-            $Mailer->Password = 'Argos@2020!';
+            $Mailer->Password = '';
             
             $Mailer->isHTML(true);
             $Mailer->From = 'cadastros@argoshackvision.tech';
